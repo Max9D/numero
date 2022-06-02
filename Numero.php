@@ -9,6 +9,10 @@
             if($this->n<=0) return -1 * $this->n;
             else return $this->n;
         }
+        public function par(){
+            if($this->n % 2 == 0) return true;
+            else return false;
+        }
     }
 
 ?>
