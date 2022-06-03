@@ -17,7 +17,7 @@
             if($this->n % 2 == 0) return true;
             else return false;
         }
-        public function mcd(){
+        public function mcd($numero2){
             if($this->n % 2 == 0) return true;
             else return false;
         }
