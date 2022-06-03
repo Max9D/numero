@@ -13,6 +13,18 @@
             if($this->n % 2 == 0) return true;
             else return false;
         }
+        public function primo(){
+            if($this->n % 2 == 0) return true;
+            else return false;
+        }
+        public function mcd(){
+            if($this->n % 2 == 0) return true;
+            else return false;
+        }
+        public function numeroLetra(){
+            if($this->n % 2 == 0) return true;
+            else return false;
+        }
     }
 
 ?>
