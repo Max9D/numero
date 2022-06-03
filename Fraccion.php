@@ -6,7 +6,7 @@ public function __contruct($num,$den){
     $this->denominador= $den;
 }
 public function dibujar(){
-echo $this->numerador->n . "" . $this->denominador->n;
+echo $this->numerador->n . "/" . $this->denominador->n;
 }
 public function propia(){
 
